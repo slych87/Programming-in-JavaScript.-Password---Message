@@ -11,7 +11,7 @@ input.addEventListener('input', (e) => {
     }
     else {
         div.textContent = "";
-    }
+    } x
 
     input.addEventListener('focus', () => {
         e.target.classList.add('active');
